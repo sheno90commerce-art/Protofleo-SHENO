@@ -1,0 +1,427 @@
+#xc{
+
+background-color: black;
+.
+height: 200px;
+
+}
+
+
+
+
+body{
+  margin:0%;
+  margin:0%;
+  
+  background-image: url(background.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;       
+  
+   /* تبقي الصورة بحجمها الأصلي */
+     /* تحسين العرض */
+
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  margin:0%;
+  padding: 0%;
+}
+
+.front {
+  position: absolute;
+  left: 170px;
+  
+  width: 100px;
+}
+
+
+
+
+
+
+h1{
+position: absolute;
+left: 140px;
+top: 130px;
+color: #AEB5FF;
+  
+}
+
+#o{
+width: 150px;
+
+        
+}
+.p{
+  color: white;
+  background-color:#42445A;
+}
+#h{
+
+  
+  width: auto;
+margin-top: 25px;
+  padding-top: -800px;
+  border-radius: 25px;
+}
+
+#w{
+    margin-top:20px ;
+  text-align: center;
+background-color: #5698FF;
+padding:30px;
+}
+
+.j{
+  margin-top:-900px ;
+  text-align: center;
+  background-color: #5698FF;
+padding:30px;
+}
+
+#ok{
+  color: #FFFFFF;
+  margin-left:300px;
+
+  
+  
+  
+  
+}
+
+#z{
+  margin-left: 100px;
+}
+
+
+.e{
+ color: #FFFFFF;
+ text-align: center;
+margin-top: -101px;
+
+}
+
+
+
+#r{
+  background-color:  #FF8049;
+  
+ padding-top: 100px ;
+}
+
+#y{
+  background-color: #27C136;
+  padding-top: 10px;
+  border-radius: 30px;
+}
+#u{
+  background-color: #FFFFFF;
+   padding-top: 20px;
+  border-radius: 30px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.skill-card {
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: black;
+}
+
+.skill-name {
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.progress {
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  text-align: center;
+  color: #000;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+/* ألوان حسب اللوجو */
+.skill-card.html { background: #E44D26; }    /* برتقالي HTML */
+.skill-card.css  { background: #264DE4; }    /* أزرق CSS */
+.skill-card.en   { background: #007ACC; }    /* أزرق فاتح (زي لون تعلم الإنجليزي أو Microsoft) */
+.skill-card.ar   { background: #009639; }    /* أخضر (يرمز للعربية) */
+
+/* شريط التقدم */
+.progress-bar.html { background: #7AF347; width: 100%; }
+.progress-bar.css  { background: #7AF347; width: 50%; }
+.progress-bar.en   { background: #7AF347; width: 45%; }
+.progress-bar.ar   { background: #7AF347; width: 100%; }
+
+.about-web {
+  background: #14DDFF;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 9px 15px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+.about-web h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-web p {
+  color: #555;
+  line-height: 1.8;
+}
+
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: white;
+  
+}
+#projects {
+  padding: 50px 20px;
+  background-image: url(background.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;       
+  text-align: center;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #3E3DD9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-card .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background: #5698FF;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project-card .btn:hover {
+  background: #407ad6;
+}
+
+#contact {
+  padding: 50px 20px;
+  background: black;
+  text-align: center;
+  
+}
+
+
+
+.contact-box p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+}
+
+.contact-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.contact-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn.whatsapp {
+  background: #25D366; /* أخضر واتساب */
+}
+
+.btn.instagram {
+  background: #E4405F; /* أحمر/وردي إنستجرام */
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.contact-box p {
+  margin: 8px 0;
+  color: #555;
+}
+
+#f{
+  text-align: center;
+}
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 40%, #FFCC70 100%);
+  border-radius: 8px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 10000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  cursor: pointer;
+  align-items: center;
+  margin: 50px;
+}
+
+.card-content {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.card-content .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+  text-transform: uppercase;
+    margin: 50px;
+}
+
+.card-content .card-para {
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+    align-items: center;
+}
+
+.card:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  z-index: 1;
+    align-items: center;
+}
+
+.card:hover:before {
+  transform: translateX(-100%);
+    align-items: center;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  z-index: 1;
+    align-items: center;
+}
+
+.card:hover:after {
+  transform: translateX(100%);
+    align-items: center;
+}
+
+
+.nm{
+ background-color: #3498db; color: white; display: inline-block; padding: 8px 16px; border-radius: 6px;
+  
+
+
+  
+  margin-left:135px;
+  
+}
+
+#oa{
+  color: white;
+}
+
